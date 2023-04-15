@@ -1,4 +1,4 @@
-# My-Notes-v1.0
+# My-Notes-v1
 
 ## Project Features
  - ROOM
