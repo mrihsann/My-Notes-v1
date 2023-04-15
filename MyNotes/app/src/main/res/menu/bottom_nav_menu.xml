@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/house_solid"
+        android:title="Home" />
+    <item
+        android:id="@+id/favButton"
+        android:title="Favorites"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/shield_heart_solid"/>
+
+    <item
+        android:id="@+id/addNoteButton"
+        android:title="Add Note"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/square_plus_solid"/>
+    <item
+        android:id="@+id/trash"
+        android:title="Trash"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/trash_can_solid"/>
+
+
+
+
+</menu>

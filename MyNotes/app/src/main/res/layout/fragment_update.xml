@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:id="@+id/anaLayoutU"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4EDAE"
+        android:orientation="vertical"
+        tools:context=".fragment.AddFragment">
+
+        <include
+            android:id="@+id/toolBarU"
+            layout="@layout/update_fragment_menu"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@color/design_default_color_background">
+
+        </include>
+
+        <LinearLayout
+            android:id="@+id/colors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:id="@+id/color1U"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/round_button" />
+
+            <ImageView
+                android:id="@+id/color2U"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/round_button2" />
+
+            <ImageView
+                android:id="@+id/color3U"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/round_button3" />
+
+            <ImageView
+                android:id="@+id/color4U"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/round_button4" />
+
+            <ImageView
+                android:id="@+id/color5U"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/round_button5" />
+
+            <ImageView
+                android:id="@+id/color6U"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/round_button6" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/addTitleU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:ems="10"
+            android:fontFamily="@font/nunito"
+            android:gravity="start"
+            android:hint="Tap to for Title"
+            android:inputType="textMultiLine"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textColor="#000000"
+            android:textColorHighlight="#32FFFFFF"
+            android:textColorHint="#81000000"
+            android:textColorLink="#FF0000"
+            android:textCursorDrawable="@color/black"
+            android:textSize="35sp" />
+
+        <EditText
+            android:id="@+id/addContentU"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/transparent"
+            android:ems="10"
+            android:fontFamily="@font/nunito"
+            android:gravity="start"
+            android:hint="Tap to for Content"
+            android:inputType="textMultiLine"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="30dp"
+            android:textColor="#000000"
+            android:textColorHighlight="#32FFFFFF"
+            android:textColorHint="#81000000"
+            android:textColorLink="#FFFFFF"
+            android:textCursorDrawable="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+</layout>
